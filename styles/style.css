@@ -43,3 +43,43 @@ div #arac li {
 .social-links .link:focus {
   color: blue;
 }
+
+p {
+  color: green;
+}
+
+section > p {
+  color: orange !important;
+}
+
+.pelementi {
+  color: red;
+}
+
+#pidsi {
+  color: blueviolet;
+}
+
+.kutucuk {
+  background-color: aqua;
+  width: 50%;
+  height: 200px;
+  border: 4px solid black;
+  font-family: "Creepster", serif;
+  font-size: 17px;
+  text-align: left;
+  text-indent: 20px;
+}
+
+.kutucuk p {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.goit-css {
+  text-decoration: underline;
+  text-transform: lowercase;
+  background-color: cadetblue;
+  line-height: 30px;
+  font-size: 20px;
+}
