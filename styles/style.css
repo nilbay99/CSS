@@ -1,3 +1,15 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+p,
+a,
+div,
+span {
+  color: rgb(196, 13, 233);
+}
+
 .goit2 {
   color: red;
 }
@@ -77,9 +89,26 @@ section > p {
 }
 
 .goit-css {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-transform: lowercase;
   background-color: cadetblue;
   line-height: 30px;
   font-size: 20px;
+}
+
+.shadow {
+  font-size: 50px;
+  text-shadow: -3px -3px 7px black;
+  /* shadow + sağ, + aşağı, - sol, - yukarı yönlü gölge yapar */
+  color: black !important;
+}
+
+.shadow > span {
+  color: blue;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.social-links {
+  list-style-type: none;
 }
